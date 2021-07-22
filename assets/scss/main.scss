@@ -1,0 +1,106 @@
+
+// GLOBAL STYLES
+@import "global/custom-variables";
+
+@import "global/fonts";
+@import "global/functions";
+@import "global/bootstrap-variables";
+@import "global/mixins";
+@import "global/reboot";
+@import "global/type";
+@import "global/grid";
+@import "global/forms";
+@import "global/buttons";
+@import "global/utilities";
+@import "global/tabs";
+
+// PLUGINS STYLE
+@import "plugins/icons";
+
+// BLOCKS STYLE
+@import "blocks/popup-block";
+@import "blocks/page-header";
+
+@import "blocks/page-footer";
+@import "blocks/nav";
+@import "blocks/section-1";
+@import "blocks/section-2";
+@import "blocks/section-3";
+@import "blocks/section-scroll";
+@import "blocks/brief-body";
+@import "blocks/ball";
+@import "blocks/menu";
+@import "blocks/contacts";
+
+
+
+body {
+	position: relative;
+
+	background-color: #1c1c1c;
+	margin: 0;
+	overflow-x: hidden;
+
+	//background-image: url("../img/bg_main-2.jpg");
+	////backdrop-filter: blur(1.5px);
+	//background-repeat: repeat;
+	//background-size: 80%;
+	font-family: "Suisse Intl";
+
+
+    //-webkit-font-smoothing: antialiased;
+    //-moz-osx-font-smoothing: grayscale;
+
+	color: #D9D9D9;
+	font-weight: 400;
+	line-height: 1.2;
+
+	min-width: 320px;
+}
+a{
+	color: #FFFFFF;
+
+
+	&:hover{
+		color: #D9D9D9;
+		opacity: 0.8;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+
+.bg {
+	margin: 0;
+	position: fixed;
+	overflow-x: hidden;
+	top: -50%;
+	left: -50%;
+	right: -50%;
+	bottom: -50%;
+	background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+	animation: bg-animation .2s infinite;
+	opacity: .7;
+	visibility: visible;
+}
+
+.main-container {
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+
+@keyframes bg-animation {
+	0% { transform: translate(0,0) }
+	10% { transform: translate(-5%,-5%) }
+	20% { transform: translate(-10%,5%) }
+	30% { transform: translate(5%,-10%) }
+	40% { transform: translate(-5%,15%) }
+	50% { transform: translate(-10%,5%) }
+	60% { transform: translate(15%,0) }
+	70% { transform: translate(0,10%) }
+	80% { transform: translate(-15%,0) }
+	90% { transform: translate(10%,5%) }
+	100% { transform: translate(5%,0) }
+}

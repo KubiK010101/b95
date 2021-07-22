@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-BlackItalic.eot');
+    src: local('Silk Serif Black Italic'), local('SilkSerif-BlackItalic'),
+        url('SilkSerif-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-BlackItalic.woff2') format('woff2'),
+        url('SilkSerif-BlackItalic.woff') format('woff'),
+        url('SilkSerif-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-BoldItalic.eot');
+    src: local('Silk Serif Bold Italic'), local('SilkSerif-BoldItalic'),
+        url('SilkSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-BoldItalic.woff2') format('woff2'),
+        url('SilkSerif-BoldItalic.woff') format('woff'),
+        url('SilkSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-LightItalic.eot');
+    src: local('Silk Serif Light Italic'), local('SilkSerif-LightItalic'),
+        url('SilkSerif-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-LightItalic.woff2') format('woff2'),
+        url('SilkSerif-LightItalic.woff') format('woff'),
+        url('SilkSerif-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-Regular.eot');
+    src: local('Silk Serif'), local('SilkSerif-Regular'),
+        url('SilkSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-Regular.woff2') format('woff2'),
+        url('SilkSerif-Regular.woff') format('woff'),
+        url('SilkSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-ExtraLightItalic.eot');
+    src: local('Silk Serif ExtraLight Italic'), local('SilkSerif-ExtraLightItalic'),
+        url('SilkSerif-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-ExtraLightItalic.woff2') format('woff2'),
+        url('SilkSerif-ExtraLightItalic.woff') format('woff'),
+        url('SilkSerif-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-SemiBoldItalic.eot');
+    src: local('Silk Serif SemiBold Italic'), local('SilkSerif-SemiBoldItalic'),
+        url('SilkSerif-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-SemiBoldItalic.woff2') format('woff2'),
+        url('SilkSerif-SemiBoldItalic.woff') format('woff'),
+        url('SilkSerif-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-SemiBold.eot');
+    src: local('Silk Serif SemiBold'), local('SilkSerif-SemiBold'),
+        url('SilkSerif-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-SemiBold.woff2') format('woff2'),
+        url('SilkSerif-SemiBold.woff') format('woff'),
+        url('SilkSerif-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-MediumItalic.eot');
+    src: local('Silk Serif Medium Italic'), local('SilkSerif-MediumItalic'),
+        url('SilkSerif-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-MediumItalic.woff2') format('woff2'),
+        url('SilkSerif-MediumItalic.woff') format('woff'),
+        url('SilkSerif-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-ExtraLight.eot');
+    src: local('Silk Serif ExtraLight'), local('SilkSerif-ExtraLight'),
+        url('SilkSerif-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-ExtraLight.woff2') format('woff2'),
+        url('SilkSerif-ExtraLight.woff') format('woff'),
+        url('SilkSerif-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-Medium.eot');
+    src: local('Silk Serif Medium'), local('SilkSerif-Medium'),
+        url('SilkSerif-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-Medium.woff2') format('woff2'),
+        url('SilkSerif-Medium.woff') format('woff'),
+        url('SilkSerif-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-Light.eot');
+    src: local('Silk Serif Light'), local('SilkSerif-Light'),
+        url('SilkSerif-Light.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-Light.woff2') format('woff2'),
+        url('SilkSerif-Light.woff') format('woff'),
+        url('SilkSerif-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-Italic.eot');
+    src: local('Silk Serif Italic'), local('SilkSerif-Italic'),
+        url('SilkSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-Italic.woff2') format('woff2'),
+        url('SilkSerif-Italic.woff') format('woff'),
+        url('SilkSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-Bold.eot');
+    src: local('Silk Serif Bold'), local('SilkSerif-Bold'),
+        url('SilkSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-Bold.woff2') format('woff2'),
+        url('SilkSerif-Bold.woff') format('woff'),
+        url('SilkSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url('SilkSerif-Black.eot');
+    src: local('Silk Serif Black'), local('SilkSerif-Black'),
+        url('SilkSerif-Black.eot?#iefix') format('embedded-opentype'),
+        url('SilkSerif-Black.woff2') format('woff2'),
+        url('SilkSerif-Black.woff') format('woff'),
+        url('SilkSerif-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+

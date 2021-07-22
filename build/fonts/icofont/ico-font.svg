@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="ico-font" horiz-adv-x="62">
+    <font-face font-family="ico-font"
+      units-per-em="64" ascent="64"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="yellow-star"
+      unicode="&#xE001;"
+      horiz-adv-x="62" d="M31 64L34.9554 44.1735L49.8091 57.88854L41.3554 39.5237L61.4338 41.8885L43.8 32L61.4338 22.1115L41.3554 24.4763L49.8091 6.1115L34.9554 19.8265L31 0L27.0446 19.8265L12.1909 6.1115L20.6446 24.4763L0.566191 22.1115L18.2 32L0.566191 41.8885L20.6446 39.5237L12.1909 57.88854L27.0446 44.1735L31 64z" />
+  </font>
+</defs>
+</svg>

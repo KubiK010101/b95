@@ -1,0 +1,209 @@
+.balls {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  margin: 0 auto;
+  z-index: -1;
+  @media (max-width: 575.98px) {
+    display: none;
+  }
+  overflow: hidden;
+}
+.balls-mobi{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  margin: 0 auto;
+  z-index: -1;
+  overflow: hidden;
+  @media (max-width: 767.98px) {
+    display: none;
+  }
+}
+.ball-1{
+  width: 300px;
+  height: 300px;
+  background: url('../../img/yellow-ball.png') no-repeat;
+  background-size: 100%;
+  opacity: 0.1;
+  background-blend-mode: luminosity;
+  filter: blur(15px);
+  transform: scale(1.6);
+}
+.ball-1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  animation: bounce 5s linear infinite;
+  @media (max-width: 575.98px) {
+    max-width: 180px;
+    max-height: 180px;
+  }
+}
+
+@keyframes bounce {
+  0% {bottom: 100%;}
+  25% {
+    bottom: 0;
+    //width: 240px;
+    //height: 200px;
+  }
+  30% {
+    bottom: 0;
+    //width: 200px;
+    //height: 180px;
+  }
+  35% {
+    bottom: 0;
+    //width: 300px;
+    //height: 300px;
+  }
+  70% {
+    bottom: 70%;
+    //width: 300px;
+    //height: 200px;
+  }
+  100% {
+    bottom: 100%;
+    //width: 200px;
+    //height: 160px;
+  }
+}
+@keyframes moveLeft {
+  from {left: 0;}
+  to   {left: 80%;}
+}
+
+.ball-1 {
+  animation: bounce 28s linear alternate infinite, moveLeft 28s linear alternate infinite;
+}
+
+
+
+.ball-2{
+  width: 300px;
+  height: 300px;
+
+  background: url('../../img/red-ball.png') no-repeat;
+  background-size: 100%;
+  opacity: 0.1;
+  background-blend-mode: luminosity;
+  filter: blur(15px);
+  @media (max-width: 575.98px) {
+    max-width: 180px;
+    max-height: 180px;
+  }
+}
+
+
+
+
+.ball-2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  animation: bounce 3s linear infinite;
+  transform: scale(1.6);
+
+}
+@keyframes bounce-2 {
+  0% {bottom: 100%;}
+  25% {
+    bottom: 40%;
+    //width: 240px;
+    //height: 200px;
+  }
+  30% {
+    bottom: 30%;
+    //width: 200px;
+    //height: 180px;
+  }
+  35% {
+    bottom: 11%;
+    //width: 300px;
+    //height: 300px;
+  }
+  70% {
+    bottom: 40%;
+    //width: 300px;
+    //height: 200px;
+  }
+  100% {
+    bottom: 100%;
+    // width: 200px;
+    // height: 160px;
+  }
+}
+@keyframes moveRight {
+  from {right: 0;}
+  to   {right: 80%;}
+}
+
+.ball-2 {
+  animation: bounce-2 34s linear alternate infinite, moveRight 34s alternate infinite ;
+}
+
+//.ball-3{
+//  width: 500px;
+//  height: 500px;
+//
+//  background: white;
+//  opacity: 0.16;
+//  background-blend-mode: luminosity;
+//  filter: blur(20px);
+//}
+//
+//
+//
+//
+//.ball-3 {
+//  position: absolute;
+//  width: 300px;
+//  height: 300px;
+//  border-radius: 100%;
+//  animation: bounce-3 3s linear infinite;
+//  @media (max-width: 575.98px) {
+//    max-width: 80px;
+//    max-height: 80px;
+//  }
+//}
+//@keyframes bounce-3 {
+//  0% {bottom: 100%;}
+//  25% {
+//    bottom: 40%;
+//    width: 440px;
+//    height: 400px;
+//  }
+//  30% {
+//    bottom: 30%;
+//    width: 400px;
+//    height: 380px;
+//  }
+//  35% {
+//    bottom: 11%;
+//    width: 400px;
+//    height: 400px;
+//  }
+//  70% {
+//    bottom: 40%;
+//    width: 450px;
+//    height: 300px;
+//  }
+//  100% {
+//    bottom: 100%;
+//    width: 400px;
+//    height: 360px;
+//  }
+//}
+//@keyframes moveRight {
+//  from {right: 0;}
+//  to   {right: 80%;}
+//}
+//
+//.ball-3 {
+//  animation: bounce-3 34s linear infinite, moveRight 34s linear infinite ;
+//}

@@ -1,0 +1,51 @@
+@import url(//db.onlinewebfonts.com/c/88f10bf18a36407ef36bf30bc25a3618?family=Suisse+Intl);
+@font-face {
+  font-family: "Aeonik-Air";
+  src: url("../../fonts/Aeonik-Air.otf") format("truetype");
+}
+@font-face {
+  font-family: "Aeonik-AirItalic";
+  src: url("../../fonts/Aeonik-AirItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "Aeonik-Bold";
+  src: url("../../fonts/Aeonik-Bold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Aeonik-AirItalic";
+  src: url("../../fonts/Aeonik-AirItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "Aeonik-Black";
+  src: url("../../fonts/Aeonik-Black.otf") format("truetype");
+}
+@font-face {
+  font-family: "Aeonik-Regular";
+  src: url("../../fonts/Aeonik-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  //src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot");
+  src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff") format("woff");
+  //url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.ttf") format("truetype"),
+  //url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot?#iefix")  format("embedded-opentype"),
+  //url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.svg#Suisse Intl") format("svg");
+}
+
+
+
+
+@font-face {
+  font-family: 'Slick-Slant';
+  //src: url('../../fonts/font/SilkSerif-LightItalic.eot');
+          //local('Silk Serif Light Italic'), local('SilkSerif-LightItalic'),
+         src:  url('../../fonts/font/SilkSerif-LightItalic.woff2') format('woff2'),
+   url('../../fonts/font/SilkSerif-LightItalic.woff') format('woff');
+  //url('../../fonts/font/SilkSerif-LightItalic.ttf') format('truetype'),
+  //url('../../fonts/font/SilkSerif-LightItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
