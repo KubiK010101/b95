@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1030b6b2-a87d-47b8-be33-62b43fd0df23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/B95.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-Air.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-AirItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-BlackItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-LightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-MediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-RegularItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-Thin.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Aeonik-ThinItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-BlackItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-ExtraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-ExtraLightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-ExtraLightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-ExtraLightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-SemiBoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/SilkSerif-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Slick-Medium-Fixed.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Slick-Slant.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/arrow-down-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bg_main-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bg_main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/collapse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/contact-after.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/input.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/page-header__arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/red-ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-1-orange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-1-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-1__capabilities-after.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-1__line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-2__arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-2__circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-3__arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-3__circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-3__img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-3__img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-3__img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/section-3__img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/svg-icons/yellow-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/yellow-ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/yellow-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/yellow-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/libs/jquery.inputmask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/libs/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/libs/scroll-lock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/privat-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/ball.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/brief-body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/page-footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/popup-block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/section-1.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/section-2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/section-3.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/blocks/section-scroll.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/bootstrap-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/mixins/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/global/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/plugins/icons-font-template.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/plugins/icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/template/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/template/page-footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/template/page-header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/template/popups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/main.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-Air.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-AirItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-BlackItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-LightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-MediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-RegularItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-Thin.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Aeonik-ThinItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-BlackItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-ExtraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-ExtraLightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-ExtraLightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-ExtraLightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-SemiBoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/SilkSerif-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Slick-Medium-Fixed.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Slick-Slant.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/arrow-down-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg-noise.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg_main-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/bg_main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/collapse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/contact-after.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/input.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/logo-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/logo-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/logo-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/page-header__arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/red-ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-1-orange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-1-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-1__capabilities-after.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-1__line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-2__arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-2__circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-3__arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-3__circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-3__circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-3__img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-3__img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-3__img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/section-3__img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/setion-2__star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/arrow-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/bin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/chat-help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/cross.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/svg-icons/yellow-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/yellow-ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/yellow-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/yellow-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/plugins.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/privat-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/config/tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/tasks/fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/tasks/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/tasks/img.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/tasks/sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/tasks/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/tasks/serve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/tasks/svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/tasks/watch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1vmCsqmUPGkPG01cq8M6xGqttfK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1030b6b2-a87d-47b8-be33-62b43fd0df23" name="Default Changelist" comment="" />
+      <created>1627158086391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627158086391</updated>
+      <workItem from="1627158087909" duration="2359000" />
+      <workItem from="1627219670742" duration="791000" />
+      <workItem from="1627592360682" duration="856000" />
+      <workItem from="1628418732871" duration="630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1627592363148">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="656" y="384" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1627592363148" />
+    <state x="616" y="260" key="run.anything.popup" timestamp="1627159181021">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="616" y="260" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1627159181021" />
+  </component>
+</project>

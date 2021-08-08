@@ -1,0 +1,62 @@
+.nav{
+  padding: 24px 25px 0px 25px;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  position: fixed;
+  z-index: 150;
+  mix-blend-mode: difference;
+  .container-fluid {
+    position: relative;
+  }
+  &__items{
+    text-align: right;
+    padding-right: 24px;
+    line-height: 24px;
+    padding-top: 24px;
+    font-size: 20px;
+    &_black{
+      color: #1C1C1C;
+    }
+    @media (max-width: 575.98px) {
+      padding-top: 8px;
+    }
+  }
+  &__contacts{
+    padding-right: 80px;
+    position: relative;
+    cursor: pointer;
+    @media (max-width: 767.98px) {
+      display: none;
+    }
+    &:after{
+      position: absolute;
+      content: ' ';
+      background-image: url("../../img/contact-after.svg");
+
+      width: 25px;
+      height: 25px;
+      background-repeat: no-repeat;
+      right: 50px;
+    }
+  }
+  &__menu{
+    cursor: pointer;
+    @media (max-width: 575.98px) {
+      font-size: 18px;
+    }
+  }
+
+  &__logo{
+    max-width: 165px;
+    height: auto;
+    //opacity: 0.9;
+    @media (max-width: 575.98px) {
+      max-width: 100px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+

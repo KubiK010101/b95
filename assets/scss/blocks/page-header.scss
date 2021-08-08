@@ -1,0 +1,214 @@
+.page-header {
+  position: relative;
+  padding-top: 160px;
+  &__title {
+    text-align: center;
+    @media (max-width: 1199.98px) {
+      font-size: 80px;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 60px;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    &_yellow {
+      color: #D9E020;
+    }
+
+    &_italic {
+      font-family: 'Slick-Slant', serif;
+      font-style: italic;
+      font-size: 112px;
+      color: #D9E020;
+      font-weight: 200;
+
+      @media (max-width: 991.98px) {
+        font-size: 95px;
+      }
+      @media (max-width: 575.98px) {
+        font-size: 38px;
+      }
+    }
+
+    &_left {
+      padding-right: 120px;
+      @media (max-width: 1199.98px) {
+        padding-right: 0;
+      }
+    }
+  }
+
+  &__sub-title {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    margin-top: -50px;
+    display: inline-block;
+    @media (max-width: 575.98px) {
+      display: block;
+      font-size: 18px;
+      margin-top: 32px;
+    }
+  }
+
+  &__brief {
+    margin-top: 66px;
+    position: relative;
+    width: 248px;
+    height: 134px;
+    background: #FFFFFF;
+    border-radius: 67px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  &__brief-btn {
+    position: absolute;
+    display: block;
+    background: #292929;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    top: 7.3px;
+    left: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 37px;
+    &.open{
+      left: 100px;
+      animation: BriefOpen 600ms forwards, BriefRotate 600ms forwards;
+      background: #D9E020;
+    }
+  }
+
+  &__brief-field {
+    &.closed {
+      & .brief-body{
+        display: none;
+      }
+      display: none;
+      position: absolute;
+      background: transparent;
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+      top: 7.3px;
+      right: 5px;
+      border: none;
+      text-decoration: none;
+      cursor: pointer;
+      overflow: hidden;
+
+    }
+
+    &.closing {
+      overflow: hidden;
+      display: block;
+      position: fixed;
+      background-color: white;
+      top: 0;
+      left: 0;
+      animation: animation_closed .4s ease-in forwards;
+
+      z-index: 100;
+      & .brief-body {
+        opacity: 1;
+        animation: brief_hidding .2s ease forwards;
+      }
+    }
+
+    &.open {
+      display: block;
+      position: fixed;
+      overflow: hidden;
+      background-color: white;
+      top: 0;
+      left: 0;
+      animation: animation_open .3s ease-in forwards;
+      z-index: 40;
+      & .brief-body {
+        visibility: collapse;
+        opacity: 0;
+        animation: brief_showing .4s ease forwards;
+        animation-delay: .3s;
+      }
+    }
+  }
+  &__circle {
+    display: block;
+    position: absolute;
+    background-image: url("../../img/page-header__arrow.svg");
+    width: 120px;
+    height: 120px;
+    right: 0;
+    bottom: -100px;
+    margin-right: 25px;
+    //&:hover{
+    // transition-duration: 5s;
+    // transform: rotate(360deg);
+    //}
+    @media (max-width: 767.98px) {
+      display: none;
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    display: block;
+    top: 42px;
+    left: 49px;
+
+    &:hover {
+      top: 50px;
+      transition-duration: 200ms;
+    }
+  }
+
+}
+
+
+@keyframes BriefOpen {
+  from {left: 5px}
+  to   {left:110px}
+}
+
+@keyframes BriefRotate {
+  from {transform: rotate(0deg)}
+  to   {transform: rotate(180deg)}
+}
+
+@keyframes brief_showing {
+  0%{
+    opacity: 0;
+    visibility: visible;
+  }
+  100%{
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes brief_hidding {
+  0%{
+    opacity: 1;
+    visibility: visible;
+  }
+  100%{
+    opacity: 0;
+    visibility: collapse;
+  }
+}
+

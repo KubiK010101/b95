@@ -1,0 +1,106 @@
+.menu {
+  display: none;
+
+  &__js-open-menu {
+
+  }
+}
+
+.menu {
+  background: #E57A5A;
+
+  &.closed {
+    position: fixed;
+      display: none;
+      height: 110vh;
+      background: #E57A5A;
+      width: 100%;
+      opacity: 100%;
+      z-index: 99999;
+  }
+
+  &.closing {
+    overflow: hidden;
+    display: block;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    animation: animation_closed .4s ease-in forwards;
+
+    z-index: 99999;
+  }
+
+  &.open {
+    position: fixed;
+    display: block;
+    height: 110vh;
+    width: 100%;
+    opacity: 100%;
+    z-index: 99999;
+    animation: animation_open .3s ease-in forwards;
+
+  }
+
+  &.open &__list-item {
+    @for $i from 1 through 5 {
+      &:nth-child(#{$i}) {
+        opacity: 0;
+        animation: ListItemsAppearing 1s #{$i * .15}s ease-out forwards;
+      }
+    }
+  }
+
+  .nav {
+    mix-blend-mode: normal;
+    color: black;
+  }
+  &__list{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 86px;
+    line-height: 101px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 77px;
+    @media (max-width: 767.98px) {
+      font-size: 80px;
+      padding-left: 0;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 50px;
+    }
+  }
+  &__list-item{
+    padding-top: 16px;
+    &_coming{
+      opacity: 0.6;
+    }
+    @media (max-width: 575.98px) {
+      padding-top: 2px;
+    }
+
+  }
+  &__coming-soon{
+    font-size: 20px;
+    line-height: 24px;
+    @media (max-width: 575.98px) {
+      display: none;
+    }
+  }
+
+}
+
+@keyframes ListItemsAppearing {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+
+  }
+}
